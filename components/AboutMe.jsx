@@ -12,13 +12,16 @@ const AboutMe = () => {
               More
             </h1>
             <p className="p-3 text-center font-medium text-3xl md:text-7xl font-mono leading-loose">
-              about me <span className="animate-ping">...</span>
+              about me{" "}
+              <div className="inline text-transparent transform transition-transform duration-200 hover:scale-110 bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 animate-pulse ">
+                ...
+              </div>
             </p>
           </div>
-          <div className=" col-span-4 row-span-2 border-b-2 border-black bg-yellow-300">
-            <p className="font-mono text-xl">
+          <div className=" col-span-4 row-span-2 border-b-2 border-black bg-yellow-300 ">
+            <p className="font-mono text-xl ">
               Let me give you a short intro about myself. I’m a full stack web
-              developer, i learnt web development from
+              developer, I learnt web development from
               <span className="font-bold underline"> Youtube</span> and
               <span className="font-bold underline"> Free Code Camp </span>I
               learn and adapt to new promising technologies. I work on contract
@@ -26,7 +29,7 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="font-mono col-span-4 bg-yellow-300">
-            In my full stack journey i have worked on many project and also with
+            In my full stack journey i have worked on many project and
             companies I have recently worked with{" "}
             <span className="font-bold text-xl text-purple-600">
               Zotto LTD{" "}

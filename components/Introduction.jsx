@@ -4,8 +4,8 @@ const Introduction = () => {
     return (
       <div className="relative flex justify-center w-full h-auto px-8 mt-10 mb-4 overflow-hidden">
         <div className="fixed px-3 rounded-xl  flex flex-col items-center justify-around h-80 bg-transparent right-4">
-          <div className="transform shadow-lg duration-200 w-8 h-8 rounded-full hover:scale-110 cursor-pointer">
-            <a>
+          <div className="transform shadow-lg transition-transform duration-200 w-8 h-8 rounded-full hover:scale-110 hover:animate-bounce cursor-pointer">
+            <a href="https://www.github.com/alpha-titan" target="_blank">
               <svg
                 width={32}
                 height={32}
@@ -20,7 +20,7 @@ const Introduction = () => {
               </svg>
             </a>
           </div>
-          <div className=" flex justify-center items-center transform  duration-200 hover:scale-110 cursor-pointer">
+          <div className=" flex justify-center items-center transform transition-transform duration-200 hover:scale-110 hover:animate-bounce cursor-pointer">
             <a
               className="flex items-center justify-center"
               href="mailto:sachinak2000@gmail.com"
@@ -193,7 +193,7 @@ const Introduction = () => {
               </svg>
             </a>
           </div>
-          <div className="transform shadow-lg duration-200 w-8 h-8 rounded-full hover:scale-110 cursor-pointer">
+          <div className=" transform transition-transform shadow-lg duration-200 w-8 h-8 rounded-full hover:scale-110  cursor-pointer">
             <a
               href="https://www.linkedin.com/in/sachin-ananthakumar/"
               target="_blank"
@@ -204,6 +204,7 @@ const Introduction = () => {
                 height="32"
                 viewBox="0 0 24 24"
                 fill="#0077b5"
+                className="hover:animate-spin"
               >
                 <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
               </svg>
@@ -211,11 +212,11 @@ const Introduction = () => {
           </div>
         </div>
         <p className=" max-w-prose block sm:leading-loose md:leading-loose lg:leading-loose font-mono  text-3xl md:text-7xl lg:text-7xl  h-full">
-          Hi, I am Sachin Ananthakumar, I am a&nbsp;
-          <span className=" text-blue-500 underline animate-pulse">
+          Hi, I am Sachin AK, I am a&nbsp;
+          <span className=" text-transparent bg-300% bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 underline animate-gradient-animation">
             Full Stack Web Developer
-          </span>{" "}
-          I love minimalistic web designing and building scalable backend
+          </span>
+          , I love minimalistic web designing and building scalable backend
         </p>
       </div>
     );
