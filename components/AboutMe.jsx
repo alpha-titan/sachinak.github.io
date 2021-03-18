@@ -28,7 +28,7 @@ const AboutMe = () => {
               basis or full time. I am eager to work on big projects
             </p>
           </div>
-          <div className="font-mono col-span-4 bg-yellow-300">
+          <div className="font-mono col-span-4 text-xl bg-yellow-300">
             In my full stack journey i have worked on many project and
             companies I have recently worked with{" "}
             <span className="font-bold text-xl text-purple-600">
