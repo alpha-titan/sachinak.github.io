@@ -27,7 +27,7 @@ const Introduction = () => {
             >
               <svg
                 shapeRendering="geometricPrecision"
-                text-textRendering="geometricPrecision"
+                textRendering="geometricPrecision"
                 imageRendering="optimizeQuality"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
@@ -51,8 +51,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#a)"
@@ -83,8 +83,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#b)"
@@ -99,8 +99,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#c)"
@@ -115,8 +115,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#d)"
@@ -131,8 +131,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#e)"
@@ -147,8 +147,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#f)"
@@ -163,8 +163,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#g)"
@@ -179,8 +179,8 @@ const Introduction = () => {
                   y2="737.107"
                   gradientTransform="matrix(.0283 0 0 -.0283 248.36 225.244)"
                 >
-                  <stop offset="0" stop-color="#f8f6ef" />
-                  <stop offset="1" stop-color="#e7e4d6" />
+                  <stop offset="0" stopColor="#f8f6ef" />
+                  <stop offset="1" stopColor="#e7e4d6" />
                 </linearGradient>
                 <path
                   fill="url(#h)"
@@ -210,7 +210,7 @@ const Introduction = () => {
             </a>
           </div>
         </div>
-        <p className=" max-w-prose block sm:leading-loose md:leading-loose lg:leading-loose font-mono  text-6xl md:text-7xl lg:text-7xl  h-full">
+        <p className=" max-w-prose block sm:leading-loose md:leading-loose lg:leading-loose font-mono  text-3xl md:text-7xl lg:text-7xl  h-full">
           Hi, I am Sachin Ananthakumar, I am a&nbsp;
           <span className=" text-blue-500 underline animate-pulse">
             Full Stack Web Developer

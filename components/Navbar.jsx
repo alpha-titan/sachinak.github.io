@@ -6,7 +6,7 @@ const Navbar = () => {
         <div>
           <span className="block font-medium font-mono text-xl md:text-2xl lg:text-3xl animate-pulse">Sachin AK</span>
         </div>
-        <div>
+        <div className="md:hidden">
           <svg
             className="w-6 h-6"
             xmlns="http://www.w3.org/2000/svg"

@@ -4,14 +4,14 @@ const AboutMe = () => {
     return (
       <div className="w-full px-8 ">
         <div
-          className="grid grid-cols-8 grid-rows-3 auto-rows-auto w-full mx-auto shadow-2xl mb-10 rounded-xl overflow-hidden place-items-center"
+          className="grid grid-cols-1 gap-2 auto-rows-auto md:grid-cols-8 md:grid-rows-3 md:auto-rows-auto  w-full mx-auto shadow-2xl mb-10 rounded-xl overflow-hidden place-items-center"
           style={{ minHeight: "400px" }}
         >
           <div className="flex flex-col justify-center items-start col-span-4 row-span-3 ">
-            <h1 className="p-3 text-center font-medium text-7xl font-mono leading-loose">
+            <h1 className="p-3 text-center font-medium text-3xl md:text-7xl font-mono leading-loose">
               More
             </h1>
-            <p className="p-3 text-center font-medium text-7xl font-mono leading-loose">
+            <p className="p-3 text-center font-medium text-3xl md:text-7xl font-mono leading-loose">
               about me <span className="animate-ping">...</span>
             </p>
           </div>
