@@ -216,7 +216,7 @@ const Introduction = () => {
           <span className=" text-transparent bg-300% bg-clip-text bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 underline animate-gradient-animation">
             Full Stack Web Developer
           </span>
-          , I love minimalistic web designing and building scalable backend
+          , I build, design products which are scalable
         </p>
       </div>
     );
